@@ -31,7 +31,7 @@ git add -A
 if git diff --cached --quiet; then
   echo "→ Niente da committare (già tutto aggiornato)"
 else
-  git commit -m "Gitav landing pages — 8 strutture bilingue"
+  git commit -m "Serve images and PDFs from GitHub raw URLs"
   echo "→ Commit creato"
 fi
 

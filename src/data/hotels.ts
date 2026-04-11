@@ -1,8 +1,17 @@
 import type { Hotel } from "./types";
 
-// Helper to build image path
-const img = (slug: string, name: string) => `/hotels/${slug}/pics/${name}`;
-const pdf = (slug: string, name: string) => `/hotels/${slug}/pdfs/${name}`;
+// Asset base URL.
+// Per default immagini e PDF vengono serviti direttamente da GitHub raw,
+// così il progetto Lovable non deve gestire nessun file binario in `public/`.
+// Se un giorno sposti gli asset su un CDN vero o li copi in `public/`,
+// basta cambiare ASSET_BASE.
+const ASSET_BASE =
+  "https://raw.githubusercontent.com/1000Feet/gitavweb/main/public/hotels";
+
+const img = (slug: string, name: string) =>
+  `${ASSET_BASE}/${slug}/pics/${encodeURIComponent(name)}`;
+const pdf = (slug: string, name: string) =>
+  `${ASSET_BASE}/${slug}/pdfs/${encodeURIComponent(name)}`;
 
 export const hotels: Hotel[] = [
   // ═══════════════════════════════════════════════════
