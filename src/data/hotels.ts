@@ -30,15 +30,15 @@ export const hotels: Hotel[] = [
       en: "Nature, sea and open spaces",
     },
     description: {
-      it: "Al Gitavillage Il Gabbiano la vacanza scorre con semplicità: natura, spazi aperti e tutto quello che serve per stare bene insieme. Che tu sia qui per rilassarti, giocare con i bambini o goderti il mare, sei nel posto giusto.",
-      en: "At Gitavillage Il Gabbiano, holidays flow simply: nature, open spaces, and everything you need to feel good together. Whether you're here to relax, play with your children, or enjoy the sea, you're in the right place.",
+      it: "Al Gitavillage Il Gabbiano la vacanza scorre con semplicità: natura, spazi aperti e tutto quello che serve per stare bene insieme. Che tu sia qui per rilassarti, giocare con i bambini o goderti il mare, sei nel posto giusto.\n\nEcco tutto quello che c'è da sapere per vivere al meglio il tuo soggiorno in libertà...e senza pensieri.",
+      en: "At Gitavillage Il Gabbiano, holidays flow simply: nature, open spaces, and everything you need to feel good together. Whether you're here to relax, play with your children, or enjoy the sea, you're in the right place.\n\nHere's everything you need to know to make the most of your stay... in total freedom and without worries.",
     },
-    badge: "🌊 Orbetello · Maremma Toscana",
+    badge: "🏕️ Orbetello · Maremma Toscana",
     heroImage: img("ilgabbiano", "beach-gitav_gitavillage_gabbiano_spiaggia_2021.jpg"),
     cardImage: img("ilgabbiano", "beach-gitav_gitavillage_gabbiano_spiaggia_2021.jpg"),
     heroSubtitle: {
-      it: "Dove il mare incontra la natura",
-      en: "Where the sea meets nature",
+      it: "Benvenuti al Gitavillage Il Gabbiano",
+      en: "Welcome to Gitavillage Il Gabbiano",
     },
     introLabel: "Benvenuti · Welcome",
     introTitleIt: "La tua",
@@ -48,15 +48,15 @@ export const hotels: Hotel[] = [
     highlights: [
       {
         icon: "🏖️",
-        title: "Spiaggia vicina",
-        titleEn: "Beach nearby",
-        description: "Mare cristallino della Maremma raggiungibile in pochi minuti.",
+        title: "Spiaggia convenzionata",
+        titleEn: "Partner beach",
+        description: "Prenota il tuo posto: € 20/giorno (giu, lug, set), € 25 agosto. Sconto 20% con braccialetto Gitav (convenzione Singita).",
       },
       {
         icon: "🏊",
-        title: "Piscina libera",
-        titleEn: "Free pool",
-        description: "Aperta tutti i giorni dalle 09:00 alle 19:00.",
+        title: "Piscina",
+        titleEn: "Swimming pool",
+        description: "Aperta tutti i giorni dalle 09:00 alle 19:00. La cuffia è consigliata, ma non obbligatoria.",
       },
       {
         icon: "🎭",
@@ -66,49 +66,49 @@ export const hotels: Hotel[] = [
       },
       {
         icon: "🚣",
-        title: "Canoe & pedalò",
-        titleEn: "Free rental",
-        description: "Noleggio gratuito su prenotazione (30 minuti).",
+        title: "Canoe & Pedalò",
+        titleEn: "Canoes & Pedal Boats",
+        description: "Prenotazione gratuita per 30 minuti.",
       },
     ],
     services: [
       {
-        title: "Bar & Ristorante",
-        titleEn: "Bar & Restaurant",
+        title: "Gusto & Relax",
+        titleEn: "Food & Relax",
         description:
-          "Il bar ti aspetta dalle 08:00 alle 23:00 per colazione, pause e drink serali. Il ristorante propone pranzo (12:30–14:00) e cena (19:30–23:00), con pizza la sera. Sono disponibili anche piatti senza glutine semplici (cucina non certificata).",
+          "Il buongiorno parte da qui (Bar) — Per iniziare la giornata con calma (e magari un buon caffè), il bar ti aspetta dalle 08:00 alle 23:00.\n\nA tavola, quando vuoi tu (Ristorante & Pizzeria) — Pranzo dalle 12:30 alle 14:00 e cena dalle 19:30 alle 23:00. La sera puoi gustare anche un'ottima pizza. Nota: disponibili piatti senza glutine semplici (cucina non certificata).\n\nSpiaggia — Puoi prenotare il tuo posto (previa verifica della disponibilità all'atto della prenotazione): € 20 al giorno (giugno, luglio, settembre), € 25 ad agosto (1 ombrellone + 2 lettini).\n\nConvenzione Singita — Con il braccialetto Gitav hai: 20% di sconto sui servizi spiaggia e 10% su food & drink.\n\nLa Piscina è aperta tutti i giorni dalle 09:00 alle 19:00. Il giovedì chiude alle 18:00 per preparare la grigliata serale. La cuffia è consigliata, ma non obbligatoria.\n\nIl Minimarket è aperto tutti i giorni dalle 08:00 alle 13:00 e dalle 16:00 alle 19:00.\n\nCanoe & Pedalò — Puoi prenotare gratuitamente canoe e pedalò per 30 min.",
         descriptionEn:
-          "The bar is open 08:00–23:00 for breakfast, breaks and evening drinks. The restaurant serves lunch (12:30–14:00) and dinner (19:30–23:00), with evening pizza. Simple gluten-free options available (non-certified kitchen).",
-        image: img("ilgabbiano", "market-minimarket.jpg"),
-      },
-      {
-        title: "Spiaggia & Piscina",
-        titleEn: "Beach & Pool",
-        description:
-          "Puoi prenotare la tua postazione (1 ombrellone + 2 lettini) a € 20/giorno in giugno, luglio e settembre e € 25 ad agosto. Con il braccialetto Gitav hai il 20% di sconto sui servizi spiaggia e 10% su food & drink allo stabilimento Singita. La piscina è aperta tutti i giorni 09:00–19:00 (il giovedì chiude alle 18:00 per la grigliata serale).",
-        descriptionEn:
-          "You can reserve your beach spot (1 umbrella + 2 sunbeds) at €20/day in June, July and September, €25 in August. With your Gitav wristband you get a 20% discount on beach services and 10% on food & drinks at Singita. The pool is open daily 09:00–19:00 (Thursdays it closes at 18:00 for the evening BBQ).",
+          "Start your day here (Bar) — To begin your day at your own pace (and maybe with a good coffee), the bar is open from 08:00 to 23:00.\n\nDining, whenever you like (Restaurant & Pizzeria) — Lunch from 12:30 to 14:00 and dinner from 19:30 to 23:00. In the evening, you can also enjoy delicious pizza. Note: simple gluten-free options are available (non-certified kitchen).\n\nBeach — You can reserve your spot (subject to availability at the time of booking): € 20 per day (June, July, September), € 25 in August (1 umbrella + 2 sunbeds).\n\nSingita Partnership — With your Gitav bracelet you get: 20% discount on beach services and 10% on food & drinks.\n\nThe Swimming Pool is open every day from 09:00 to 19:00. On Thursdays it closes at 18:00 for the evening BBQ setup. Swimming caps are recommended but not mandatory.\n\nThe Minimarket is open every day from 08:00 to 13:00 and from 16:00 to 19:00.\n\nCanoes & Paddle Boats — You can book canoes and paddle boats free of charge for 30 minutes.",
         image: img("ilgabbiano", "pool-gitav_gitavillage-il-gabbiano_piscina-20.jpeg"),
       },
       {
-        title: "Sport, Animazione & Bambini",
-        titleEn: "Sports, Entertainment & Kids",
+        title: "Esplorare e Divertirsi",
+        titleEn: "Explore & Have Fun",
         description:
-          "Campo da calcetto in erba sintetica e tavoli da ping-pong disponibili prenotando in Reception. Il parco giochi ombreggiato è perfetto per i più piccoli. Animazione sportiva, giochi e spettacoli serali per tutta la famiglia — programma in bacheca.",
+          "In Movimento — Vuoi scoprire i dintorni? Puoi noleggiare bici con i partner esterni: Maremma Escursioni (+39 371 3837052) o VTC Talamone (+39 347 2607983).\n\nEscursioni — Puoi prenotare una minicrociera all'isola del Giglio, una gita alle cascate di Saturnia o una passeggiata in carrozza nel Parco della Maremma e tante altre esperienze, chiamando il numero +39 371 3837052.\n\nCampi Sportivi & Ping-Pong — Campo da calcetto in erba sintetica e tavoli da ping-pong sono disponibili prenotandoli in Reception. Il materiale si ritira e si riconsegna direttamente lì.\n\nAnimazione — Attività sportive, giochi e spettacoli serali per tutta la famiglia. Dai un'occhiata al programma in bacheca!\n\nIl parco giochi ombreggiato è perfetto per scatenarsi in totale sicurezza!\n\nConnessione Wi-Fi — Disponibile nelle aree comuni (piscina, reception, ristorante e bar). Registrati con email, Google o Facebook per ricevere il PIN.",
         descriptionEn:
-          "Five-a-side football field with synthetic grass and table tennis available by booking at Reception. A shaded playground is perfect for the little ones. Sports animation, games and evening shows for the whole family — see the programme on the notice board.",
+          "On the Move — Would you like to explore the surroundings? You can rent bikes with our external partners: Maremma Escursioni (+39 371 3837052) or VTC Talamone (+39 347 2607983).\n\nExcursions — You can book a mini cruise to Giglio Island, a trip to the Saturnia waterfalls, or a carriage ride in the Maremma Park and many other experiences by calling +39 371 3837052.\n\nSports Fields & Table Tennis — A five-a-side football field with synthetic grass and table tennis tables are available by booking at Reception. Equipment can be collected and returned there.\n\nEntertainment — Sports activities, games, and evening shows for the whole family. Check the notice board for the full program!\n\nThe shaded playground is perfect for having fun in total safety!\n\nWi-Fi Connection — Available in common areas (pool, reception, restaurant, and bar). Register via email, Google, or Facebook to receive your PIN.",
         image: img("ilgabbiano", "sports-gitav_gitavillage_gabbiano_sport_2021-25.jpg"),
+      },
+      {
+        title: "Utilità per la Piazzola",
+        titleEn: "Pitch Utilities & Emergencies",
+        description:
+          "Servizi Tecnici:\n• Energia — Ogni piazzola dispone di un attacco luce da 5A (max 1 kW) con spina europea (è consentito 1 solo attacco per piazzola).\n• Acqua — Docce calde sono incluse e funzionano tramite chip elettronico. Acqua potabile disponibile (consigliata solo per cucinare).\n• Barbecue — L'area comune è a disposizione per le tue grigliate.\n\nArea Lavanderia — Situata all'ingresso del blocco bagni (zona barbecue). Lavatrici e asciugatrici a moneta: € 5 a ciclo (monete da 1 o 2 euro), il detersivo è incluso nel lavaggio.\n\nComfort in alloggio:\n• Acqua potabile disponibile in tutta la struttura\n• Acqua calda solo in bagno\n• Piastra di cottura: scarica le istruzioni PDF\n\nVarie:\n• L'ATM si trova subito dopo l'uscita dal villaggio, sulla destra.\n• L'auto non può essere parcheggiata in piazzola.\n\nSicurezza — Numero unico emergenze 112 | Guardia Medica: 0564 869018/19.\n\nAmbiente — L'isola ecologica per la raccolta differenziata si trova all'interno del parcheggio.\n\nPer orientarti al meglio, qui trovi la mappa del villaggio (PDF).",
+        descriptionEn:
+          "Technical Services:\n• Electricity — Each pitch is equipped with a 5A power connection (max 1 kW) with a European plug (only 1 connection per pitch is allowed).\n• Water — Hot showers are included and operate via electronic chip. Drinking water is available (recommended for cooking only).\n• Barbecue — Shared area available for your BBQs.\n\nLaundry Area — Located at the entrance of the restroom block (BBQ area). Coin-operated washing machines and dryers: € 5 per cycle (1 or 2 euro coins), detergent included.\n\nIn your accommodation:\n• Drinking water available throughout the property\n• Hot water available in the bathroom only\n• Cooking hob: download PDF instructions\n\nGeneral Info:\n• The ATM is located just outside the village exit, on the right.\n• Cars cannot be parked on the pitch.\n\nSafety — Emergency number 112 | Medical Service: +39 0564 869018/19.\n\nEnvironment — The recycling area is located inside the parking area.",
+        image: img("ilgabbiano", "utility-free-wifi.jpg"),
       },
     ],
     hours: [
       {
         icon: "☕",
-        title: "Bar & Ristorante",
-        titleEn: "Bar & Restaurant",
+        title: "Il buongiorno parte da qui",
+        titleEn: "Start your day here",
         rows: [
           { label: "Bar", labelEn: "Bar", value: "08:00–23:00" },
           { label: "Pranzo", labelEn: "Lunch", value: "12:30–14:00" },
-          { label: "Cena", labelEn: "Dinner", value: "19:30–23:00" },
+          { label: "Cena / Pizzeria", labelEn: "Dinner / Pizzeria", value: "19:30–23:00" },
         ],
       },
       {
@@ -117,18 +117,19 @@ export const hotels: Hotel[] = [
         titleEn: "Pool & Services",
         rows: [
           { label: "Piscina", labelEn: "Pool", value: "09:00–19:00" },
+          { label: "Giovedì", labelEn: "Thursdays", value: "chiude alle 18:00" },
           { label: "Minimarket", labelEn: "Minimarket", value: "08:00–13:00 / 16:00–19:00" },
-          { label: "Cassa", labelEn: "Cash desk", value: "09:00–12:30 / 15:00–18:00" },
         ],
       },
       {
         icon: "🏕️",
-        title: "Soggiorno",
-        titleEn: "Stay",
+        title: "Il momento dei saluti",
+        titleEn: "Time to say goodbye",
         rows: [
           { label: "Check-out alloggi", labelEn: "Accommodation check-out", value: "Entro le 10:00" },
-          { label: "Servizi fino a", labelEn: "Services until", value: "12:00" },
+          { label: "Villaggio fino a", labelEn: "Village until", value: "12:00" },
           { label: "Reception", labelEn: "Reception", value: "08:00–20:00" },
+          { label: "Ufficio Cassa", labelEn: "Cash desk", value: "09:00–12:30 / 15:00–18:00" },
         ],
       },
       {
@@ -136,47 +137,47 @@ export const hotels: Hotel[] = [
         title: "Silenzio",
         titleEn: "Quiet Hours",
         rows: [
-          { label: "Pausa pomeriggio", labelEn: "Afternoon", value: "13:00–15:30" },
-          { label: "Notte", labelEn: "Night", value: "19:30–08:30" },
+          { label: "Pomeriggio", labelEn: "Afternoon", value: "13:00–15:30" },
+          { label: "Sera / Notte", labelEn: "Evening / Night", value: "19:30–08:30" },
         ],
       },
     ],
     benefits: [
       {
         icon: "🏊",
-        title: "Piscina / Pool",
-        titleEn: "Pool",
-        description: "Accesso libero con lettini e ombrelloni.",
+        title: "Piscina",
+        titleEn: "Swimming Pool",
+        description: "Aperta tutti i giorni dalle 09:00 alle 19:00. La cuffia è consigliata, ma non obbligatoria.",
       },
       {
         icon: "🚣",
         title: "Canoe & Pedalò",
         titleEn: "Canoes & Pedal Boats",
-        description: "Noleggio gratuito per 30 minuti.",
+        description: "Prenotazione gratuita per 30 minuti.",
       },
       {
         icon: "🎭",
         title: "Animazione",
         titleEn: "Entertainment",
-        description: "Attività e spettacoli per grandi e piccoli.",
+        description: "Attività sportive, giochi e spettacoli serali per tutta la famiglia. Programma in bacheca.",
       },
       {
         icon: "⚽",
-        title: "Campi sportivi",
-        titleEn: "Sports fields",
-        description: "Calcetto e ping-pong su prenotazione.",
+        title: "Campi Sportivi & Ping-Pong",
+        titleEn: "Sports Fields & Table Tennis",
+        description: "Campo da calcetto in erba sintetica e tavoli da ping-pong. Prenotazione in Reception, materiale si ritira e riconsegna lì.",
       },
       {
         icon: "🧒",
         title: "Parco giochi",
         titleEn: "Playground",
-        description: "Area ombreggiata per i più piccoli.",
+        description: "Area ombreggiata perfetta per scatenarsi in totale sicurezza.",
       },
       {
         icon: "🌐",
-        title: "Wi-Fi",
-        titleEn: "Wi-Fi",
-        description: "Reception, piscina, bar e ristoranti.",
+        title: "Wi-Fi gratuito",
+        titleEn: "Free Wi-Fi",
+        description: "Disponibile nelle aree comuni (piscina, reception, ristorante e bar). Registrati con email, Google o Facebook per il PIN.",
       },
     ],
     gallery: [
@@ -189,16 +190,14 @@ export const hotels: Hotel[] = [
     ],
     rules: [
       {
-        titleIt: "Animali non ammessi",
-        descriptionIt:
-          "Per soggiorni con animali consigliamo Gitavillage Talamone, Le Marze o Club degli Amici.",
-        descriptionEn:
-          "Pets not allowed. For pet-friendly stays try Gitavillage Talamone, Le Marze or Club degli Amici.",
+        titleIt: "Orario del Silenzio",
+        descriptionIt: "Dalle 13:00 alle 15:30 e dalle 19:30 alle 08:30 il villaggio si rilassa: in queste fasce non è possibile accedere, montare o spostare mezzi.",
+        descriptionEn: "From 13:00 to 15:30 and from 19:30 to 08:30 the village slows down: during these times it is not allowed to enter, set up, or move vehicles.",
       },
       {
-        titleIt: "Silenzio",
-        descriptionIt: "Dalle 13:00 alle 15:30 e dalle 19:30 alle 08:30 non è possibile accedere, montare o spostare mezzi.",
-        descriptionEn: "Quiet hours 13:00–15:30 and 19:30–08:30: no access, setup or vehicle movement.",
+        titleIt: "Check-out",
+        descriptionIt: "La sistemazione va liberata entro le ore 10:00, ma puoi continuare a goderti il villaggio fino alle 12:00.",
+        descriptionEn: "Accommodation must be vacated by 10:00, but you can continue enjoying the village until 12:00.",
       },
       {
         titleIt: "Parcheggio",
@@ -207,23 +206,23 @@ export const hotels: Hotel[] = [
       },
       {
         titleIt: "Gluten free",
-        descriptionIt: "Piatti disponibili su ordinazione, cucina non certificata.",
-        descriptionEn: "Gluten-free dishes available on request; kitchen not certified.",
+        descriptionIt: "Disponibili piatti senza glutine semplici (cucina non certificata).",
+        descriptionEn: "Simple gluten-free options are available (non-certified kitchen).",
       },
       {
-        titleIt: "ATM",
-        descriptionIt: "Disponibile subito dopo l'uscita dal villaggio, sulla destra.",
-        descriptionEn: "ATM just outside the village exit, on the right.",
+        titleIt: "Ambiente",
+        descriptionIt: "L'isola ecologica per la raccolta differenziata si trova all'interno del parcheggio.",
+        descriptionEn: "The recycling area is located inside the parking area.",
       },
     ],
     contacts: {
       website: "https://ilgabbianocampingvillage.com",
       email: "info@ilgabbianocampingvillage.com",
       numbers: [
-        { label: "Emergenze", value: "112" },
-        { label: "Guardia Medica", value: "0564 869018/19", phone: "+390564869018" },
+        { label: "Emergenze / Emergency", value: "112" },
+        { label: "Guardia Medica / Medical Service", value: "0564 869018/19", phone: "+390564869018" },
         { label: "Maremma Escursioni", value: "+39 371 3837052", phone: "+393713837052" },
-        { label: "VTC Talamone", value: "+39 347 2607983", phone: "+393472607983" },
+        { label: "VTC Talamone (Bici / Bikes)", value: "+39 347 2607983", phone: "+393472607983" },
       ],
     },
     pdfs: [
