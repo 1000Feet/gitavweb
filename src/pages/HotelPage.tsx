@@ -147,6 +147,7 @@ export default function HotelPage({ slug }: Props) {
       </section>
 
       {/* ═══════ HIGHLIGHTS STRIP ═══════ */}
+      {hotel.highlights.length > 0 && (
       <section className="bg-mist py-16 md:py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
@@ -171,6 +172,7 @@ export default function HotelPage({ slug }: Props) {
           </div>
         </div>
       </section>
+      )}
 
       {/* ═══════ SERVICES ═══════ */}
       <section className="max-w-7xl mx-auto px-6 py-20 md:py-28">
@@ -206,12 +208,20 @@ export default function HotelPage({ slug }: Props) {
                 <h3 className="font-serif text-3xl md:text-4xl text-ocean mb-5 leading-tight">
                   {s.title}
                 </h3>
-                <p className="text-text-body text-base md:text-lg leading-relaxed mb-3">
-                  {s.description}
-                </p>
-                <p className="text-text-light text-sm md:text-base italic leading-relaxed">
-                  {s.descriptionEn}
-                </p>
+                <div className="text-text-body text-base md:text-lg leading-relaxed mb-3 space-y-3">
+                  {s.description.split("\n\n").map((p, pi) => (
+                    <p key={pi}>{p.split("\n").map((line, li, arr) => (
+                      <>{li > 0 && <br />}{line}</>
+                    ))}</p>
+                  ))}
+                </div>
+                <div className="text-text-light text-sm md:text-base italic leading-relaxed space-y-3">
+                  {s.descriptionEn.split("\n\n").map((p, pi) => (
+                    <p key={pi}>{p.split("\n").map((line, li, arr) => (
+                      <>{li > 0 && <br />}{line}</>
+                    ))}</p>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
@@ -219,6 +229,7 @@ export default function HotelPage({ slug }: Props) {
       </section>
 
       {/* ═══════ HOURS ═══════ */}
+      {hotel.hours.length > 0 && (
       <section className={`py-20 md:py-28 bg-gradient-to-br ${theme.gradient} text-white`}>
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
@@ -262,8 +273,10 @@ export default function HotelPage({ slug }: Props) {
           </div>
         </div>
       </section>
+      )}
 
       {/* ═══════ BENEFITS ═══════ */}
+      {hotel.benefits.length > 0 && (
       <section className="max-w-6xl mx-auto px-6 py-20 md:py-28">
         <div className="text-center mb-14">
           <p className={`uppercase tracking-[0.3em] text-xs md:text-sm mb-4 ${theme.text}`}>
@@ -297,6 +310,7 @@ export default function HotelPage({ slug }: Props) {
           ))}
         </div>
       </section>
+      )}
 
       {/* ═══════ GALLERY ═══════ */}
       {hotel.gallery.length > 0 && (
